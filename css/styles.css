@@ -1,0 +1,112 @@
+h1 {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.header {
+  text-align: center;
+  font-size: 15px;
+}
+
+.header-thin {
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+  font-size: 1.8rem;
+}
+
+.header-bold {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.8rem;
+}
+
+.descriptor {
+  padding: 0 32% 4%;
+  color: hsl(229, 6%, 66%);
+}
+
+
+/* Box Section */
+
+.feature-box {
+  position: relative;
+  margin: auto;
+  height: 260px;
+  width: 360px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px hsl(229, 6%, 66%);
+}
+
+.fb-header {
+  font-size: 1.2rem;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+.fb-text {
+  padding: 5% 12%;
+}
+
+.supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  margin-right: 5px;
+  margin-top: 130px;
+}
+
+.team-builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  margin-top: 40px;
+}
+
+.calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  margin-left: 5px;
+  margin-top: 130px;
+}
+
+.fb-img {
+  position: relative;
+  left: 250px;
+  width: 75px;
+}
+
+@media (max-width: 991px) {
+  .supervisor {
+    margin-right: auto;
+    margin-top: auto;
+  }
+
+  .karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-top: auto;
+  }
+
+  .calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .feature-box {
+    margin-top: 20px;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
